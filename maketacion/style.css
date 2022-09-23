@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e5b2e7;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img{
+    float: right;
+    margin-right: 40px;
+    margin-top: 8px;
+    height: 120px;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cuadro {
+    width: 500px;
+    height: 160px;
+    border-radius: 25px;
+    background-color:  #ff9ed5;
+    text-align: justify;
+    border: 3px solid #cb587c;;
+    
+}
+.cuadro p{
+    font-size: 17px;
+    margin: 30px;
+    
+}
+.circulo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid #cb587c;;
+}
+
+.container2{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.cuadrado1{
+    height: 160px;
+    width: 700px;
+    margin: 40px;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color:  #ff9ed5;
+    text-align: justify;
+    border: 3px solid #cb587c;;
+}
+
+.cuadrado1 p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+    justify-content: flex-start;
+    
+}
+
+.cuadrado2{
+    width: 995px;
+    height: 160px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: 3px solid #cb587c;
+    background-color: #ff9ed5;
+    justify-content: flex-end;
+}
+.cuadrado2 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+
+footer{
+    background-color: #cb587c;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 120px;
+
+}
